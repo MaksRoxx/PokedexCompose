@@ -1,6 +1,6 @@
 package com.example.pokedexcompose.di
 
-import com.example.composepokedex.util.Constants.BASE_URL
+import com.example.pokedexcompose.util.Constants.BASE_URL
 import com.example.pokedexcompose.data.remote.PokeApi
 import com.example.pokedexcompose.repository.PokemonRepository
 import dagger.Module

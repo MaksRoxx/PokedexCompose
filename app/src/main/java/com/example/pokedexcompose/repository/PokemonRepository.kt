@@ -1,8 +1,8 @@
 package com.example.pokedexcompose.repository
 
-import com.example.composepokedex.data.remote.responses.Pokemon
-import com.example.composepokedex.data.remote.responses.PokemonList
-import com.example.composepokedex.util.Resourse
+import com.example.pokedexcompose.util.Resourse
+import com.example.pokedexcompose.data.remote.responses.Pokemon
+import com.example.pokedexcompose.data.remote.responses.PokemonList
 import com.example.pokedexcompose.data.remote.PokeApi
 import dagger.hilt.android.scopes.ActivityScoped
 import javax.inject.Inject

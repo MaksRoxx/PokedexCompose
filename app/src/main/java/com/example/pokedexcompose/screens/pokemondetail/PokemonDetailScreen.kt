@@ -30,7 +30,6 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.ProduceStateScope
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
@@ -52,12 +51,12 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import coil.compose.rememberAsyncImagePainter
-import com.example.composepokedex.data.remote.responses.Pokemon
-import com.example.composepokedex.data.remote.responses.Type
-import com.example.composepokedex.util.Resourse
-import com.example.composepokedex.util.parseStatToAbbr
-import com.example.composepokedex.util.parseStatToColor
-import com.example.composepokedex.util.parseTypeToColor
+import com.example.pokedexcompose.data.remote.responses.Pokemon
+import com.example.pokedexcompose.data.remote.responses.Type
+import com.example.pokedexcompose.util.Resourse
+import com.example.pokedexcompose.util.parseStatToAbbr
+import com.example.pokedexcompose.util.parseStatToColor
+import com.example.pokedexcompose.util.parseTypeToColor
 import com.example.pokedexcompose.R
 import java.util.Locale
 import kotlin.math.round
@@ -412,7 +411,7 @@ fun PokemonBaseStats(
             PokemonStat(
                 statName = parseStatToAbbr(stat),
                 statValue = stat.base_stat,
-                statMaxValue = 100,
+                statMaxValue = maxBaseState,
                 statColor = parseStatToColor(stat),
                 animDelay = i * animDelayItem
             )

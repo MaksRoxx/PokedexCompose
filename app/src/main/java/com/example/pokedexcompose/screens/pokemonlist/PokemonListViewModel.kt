@@ -8,8 +8,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.palette.graphics.Palette
-import com.example.composepokedex.util.Constants.PAGE_SIZE
-import com.example.composepokedex.util.Resourse
+import com.example.pokedexcompose.util.Constants.PAGE_SIZE
+import com.example.pokedexcompose.util.Resourse
 import com.example.pokedexcompose.data.models.PokedexListEntry
 import com.example.pokedexcompose.repository.PokemonRepository
 import dagger.hilt.android.lifecycle.HiltViewModel

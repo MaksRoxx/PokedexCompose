@@ -1,7 +1,7 @@
 package com.example.pokedexcompose.data.remote
 
-import com.example.composepokedex.data.remote.responses.Pokemon
-import com.example.composepokedex.data.remote.responses.PokemonList
+import com.example.pokedexcompose.data.remote.responses.Pokemon
+import com.example.pokedexcompose.data.remote.responses.PokemonList
 import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query

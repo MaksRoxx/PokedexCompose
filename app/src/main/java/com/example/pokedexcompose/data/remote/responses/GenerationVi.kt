@@ -1,4 +1,4 @@
-package com.example.composepokedex.data.remote.responses
+package com.example.pokedexcompose.data.remote.responses
 
 data class GenerationVi(
     val omegaruby_alphasapphire: OmegarubyAlphasapphire,

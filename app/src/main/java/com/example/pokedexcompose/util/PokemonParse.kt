@@ -1,8 +1,8 @@
-package com.example.composepokedex.util
+package com.example.pokedexcompose.util
 
 import androidx.compose.ui.graphics.Color
-import com.example.composepokedex.data.remote.responses.Stat
-import com.example.composepokedex.data.remote.responses.Type
+import com.example.pokedexcompose.data.remote.responses.Stat
+import com.example.pokedexcompose.data.remote.responses.Type
 import com.example.pokedexcompose.ui.theme.*
 import java.util.Locale
 

@@ -46,7 +46,7 @@ fun HomeNavGraph(navController: NavHostController) {
             }
             PokemonDetailScreen(
                 dominantColor = dominantColor,
-                pokemonName = pokemonName?.toLowerCase(Locale.ROOT) ?: "",
+                pokemonName = pokemonName?.lowercase(Locale.ROOT) ?: "",
                 navController = navController
             )
         }

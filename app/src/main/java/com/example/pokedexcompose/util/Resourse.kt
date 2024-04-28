@@ -1,4 +1,4 @@
-package com.example.composepokedex.util
+package com.example.pokedexcompose.util
 
 sealed class Resourse<T>(val data: T? = null, val message: String? = null) {
     class Success<T>(data: T) : Resourse<T>(data)
